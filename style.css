@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(179, 245, 245);
+}
+.Container{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   width:100vw;
+   height:100vh;
+}
+.Login{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:20em;
+    width:50em;
+}
+.Button{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    width:18em;
+}
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0.5em;
+    border:none;
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 3px black;
+}
+.log:hover{
+    transform:translate3d(-3px,-3px,-3px);
+}
+.log img,i{
+    margin:0.5em;
+}
+.log h3{
+    text-align: center;
+}
+#Microsoft{
+    background-color:rgb(2, 10, 48);
+    color:white;
+}
+#Amazon{
+    background-color: rgb(231, 183, 62);
+}
+#Slack{
+    background-color:oldlace;
+}
+#Facebook{
+    background-color:rgb(30, 89, 201);
+    color:white;
+}
